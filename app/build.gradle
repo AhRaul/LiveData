@@ -28,6 +28,13 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha07"
+    implementation "androidx.lifecycle:lifecycle-livedata:2.3.0-alpha07"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.3.0-alpha07"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha07"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.3.0-alpha07"
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
